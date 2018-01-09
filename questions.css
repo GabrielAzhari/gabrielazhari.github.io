@@ -1,0 +1,40 @@
+p {
+  font-size: 18px;
+  color: white;
+  font-family:"verdana";
+}
+
+h1 {
+  font-family:"verdana";
+  color: white;
+}
+
+h2 {
+  font-family:"verdana";
+  color: white;
+}
+
+#b {
+  background-image: url('images/background.jpeg');
+}
+
+#question {
+  width:400px;height:300px;
+}
+
+#cele {
+    display: block;
+    margin: 0 auto;
+}
+
+#bo {
+	background-image: url('images/balloons.jpeg');
+}
+
+#h {
+    text-align: center;
+}
+
+#para {
+  text-align: center;
+}
