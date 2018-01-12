@@ -61,7 +61,42 @@ else if (i===3){
 	document.view.question.value ="What was the Last Team Wayne Gretzky played on? \na)New York Rangers \nb)Edmonton Oilers \nc)Los Angeles Kings \nd)St. Louis Blues";
     document.view.qans.value=""
 }
-else if (i===4){
+else if (i===4){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="What does NHL stand for? \na)National Horse League \nb)National Housing Lease \nc)Normal Horse Lancing \nd)National Hockey League";
+    document.view.qans.value=""
+}
+else if (i===5){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which of these materials are in a baseball? \na)Metal \nb)Steel \nc)Rubber \nd)Wood";
+    document.view.qans.value=""
+}
+else if (i===6){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="What does MLB stand for? \na)Major Legacy Ball \nb)Major Legacy Baseball \nc)Major League Baseball \nd)Mens League Baseball";
+    document.view.qans.value=""
+}
+else if (i===7){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Who holds the record for most touchdown passes in the NFL? \na)Tom Brady \nb)Peyton Manning \nc)Eli Manning \nd)Aaron Rodgers";
+    document.view.qans.value=""
+}
+else if (i===8){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Who won the superbowl in 2017? \na)New England Patriots \nb)Green Bay Packers \nc)Denver Broncos \nd)Pittsburgh Steelers";
+    document.view.qans.value=""
+}
+else if (i===9){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Who has the most Mens Tennis Title Wins? \na)Rafael Nadal \nb)Serena Williams \nc)Roy Emerson \nd)Roger Federer";
+    document.view.qans.value=""
+}
+else if (i===10){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="What is the most expensive golf club? \na)Honma Five Star Tokaido 7 Iron \nb)Steel iron 7 \nc)Honma Five Star Clubs. Photo \nd)Barth and Sons Golden Putter";
+    document.view.qans.value=""
+}
+else if (i===11){
     alert("You got"+ " " + Math.round(score/(i-1)*100)  + "% for this Trivia Quiz")
 }
 	i++; 
