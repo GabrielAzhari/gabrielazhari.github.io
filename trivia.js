@@ -79,7 +79,7 @@ else if (ans===6){
 }
 else if (ans===7){ 
 	y = document.getElementById("qans").value
-    if(yy==="B"){
+    if(yy==="A"){
         document.getElementById("question").value="You are right"
          score++
     }
