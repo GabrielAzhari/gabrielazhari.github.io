@@ -7,7 +7,7 @@ function submitAnswer(){
     x = document.getElementById("question").value
 if (ans===1){
     y = document.getElementById("qans").value
-    if(yy==="D"){
+    if(yy==="C"){
         document.getElementById("question").value="You are right"
         score++
     }
@@ -19,7 +19,7 @@ if (ans===1){
 }
 else if (ans===2){ 
 	y = document.getElementById("qans").value
-    if(yy==="A"){
+    if(yy==="B"){
         document.getElementById("question").value="You are right"
          score++
     }
@@ -30,6 +30,90 @@ else if (ans===2){
     document.view.qscore.value=score
 }
 else if (ans===3){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===4){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===5){ 
+	y = document.getElementById("qans").value
+    if(yy==="C"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===6){ 
+	y = document.getElementById("qans").value
+    if(yy==="C"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===7){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===8){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===9){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===10){ 
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
