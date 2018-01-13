@@ -147,7 +147,7 @@ if (i===1){
 }
 else if (i===2){ 
 	document.view.qnum.value=i;	
-	document.view.question.value ="What City has Knicks in its name? \na)Toronto \nb)New York \nc)Chicago \nd)Detroit";
+	document.view.question.value ="What City has Knicks in its team name? \na)Toronto \nb)New York \nc)Chicago \nd)Detroit";
     document.view.qans.value=""
 }
 else if (i===3){ 
