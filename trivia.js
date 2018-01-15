@@ -1,3 +1,5 @@
+var sound1 = new Audio('sounds/correct.mp3');
+var sound2= new Audio('sounds/wrong.mp3');
 var score = 0
 var i = 1
 var ans = 1
