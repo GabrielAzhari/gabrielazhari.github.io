@@ -9,12 +9,12 @@ if (ans===1){
     y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif"
 	 score++
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -22,8 +22,8 @@ else if (ans===2){
 	y = document.getElementById("qans").value
     if(yy==="B"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif"
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -35,8 +35,8 @@ else if (ans===3){
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif" 
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -48,8 +48,8 @@ else if (ans===4){
 	y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif"
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -61,8 +61,8 @@ else if (ans===5){
 	y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif" 
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -74,8 +74,8 @@ else if (ans===6){
 	y = document.getElementById("qans").value
     if(yy==="C"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif"
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -87,8 +87,8 @@ else if (ans===7){
 	y = document.getElementById("qans").value
     if(yy==="B"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif" 
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -100,8 +100,8 @@ else if (ans===8){
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif" 
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -113,8 +113,8 @@ else if (ans===9){
 	y = document.getElementById("qans").value
     if(yy==="D"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif" 
 	 score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
@@ -126,8 +126,8 @@ else if (ans===10){
 	y = document.getElementById("qans").value
     if(yy==="A"){
         document.getElementById("question").value="You are right"
-        document.searchImage.src = "homerun.gif" 
 	score++
+	document.searchImage.src = "homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
