@@ -23,11 +23,11 @@ else if (ans===2){
     if(yy==="B"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -36,11 +36,11 @@ else if (ans===3){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -49,11 +49,11 @@ else if (ans===4){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -62,11 +62,11 @@ else if (ans===5){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -75,11 +75,11 @@ else if (ans===6){
     if(yy==="C"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -88,11 +88,11 @@ else if (ans===7){
     if(yy==="B"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -101,11 +101,11 @@ else if (ans===8){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -114,11 +114,11 @@ else if (ans===9){
     if(yy==="D"){
         document.getElementById("question").value="You are right"
 	 score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
@@ -127,11 +127,11 @@ else if (ans===10){
     if(yy==="A"){
         document.getElementById("question").value="You are right"
 	score++
-	document.searchImage.src = "homerun.gif"
+	document.searchImage.src = "images/homerun.gif"
     }
     else {
         document.getElementById("question").value="You are wrong"
-        document.searchImage.src = "sadsport.gif"
+        document.searchImage.src = "images/sadsport.gif"
     }
     document.view.qscore.value=score
 }
