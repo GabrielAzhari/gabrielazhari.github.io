@@ -1,5 +1,7 @@
 var sound1 = new Audio('sounds/correct.mp3');
 var sound2 = new Audio('sounds/wrong.mp3');
+var sound3 = new Audio('sounds/win.mp3');
+var sound4 = new Audio('sounds/lose.mp3);
 
 var score = 0
 var i = 1
@@ -195,7 +197,13 @@ else if (i===10){
 }
 else if (i===11){
     alert("You got"+ " " + Math.round(score/(i-1)*100)  + "% for this Trivia Quiz")
+if (score>=8) {
+	sound3.play("win.mp3");
 }
+else {
+	sound4.play("lose.mp3");
+}
+	}
 	i++; 
 }
  
