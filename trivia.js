@@ -224,6 +224,36 @@ else {
 	sound4.play("lose.mp3");
 }
 	}
+if (score=1) {
+	alert("Really? Try again, but this time stay concentrated")
+}
+else if (score=2) {
+	alert("Come on, You can do better than that!")
+}
+else if (score=3) {
+	alert("Maybe next try!")
+}
+else if (score=4) {
+	 alert("So close to Passing! Almost there!")
+}
+else if (score=5) {
+	alert("At least you passed!")
+}
+else if (score=6) {
+	alert("Strive for that 80!")
+}
+else if (score=7) {
+	alert("You're so close to victory you can taste it!")
+}
+else if (score=8) {
+	alert("Nice! You got an 80 that means you win!")
+}
+else if (score=9) {
+	alert("Wow! Someone knoww their sports")
+}
+else (score=10) {
+	alert("Perfect?! Amazing! Have you been studying?")
+}
 	i++; 
 }
  
