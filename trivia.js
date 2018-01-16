@@ -224,6 +224,7 @@ else {
 	sound4.play("lose.mp3");
 }
 	}
+function myFunction() {
 if (score=1) {
 	alert("Really? Try again, but this time stay concentrated")
 }
@@ -254,6 +255,7 @@ else if (score=9) {
 else (score=10) {
 	alert("Perfect?! Amazing! Have you been studying?")
 }
+	}
 	i++; 
 }
  
