@@ -16,10 +16,12 @@ if (ans===1){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -29,10 +31,12 @@ else if (ans===2){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -42,10 +46,12 @@ else if (ans===3){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -55,10 +61,12 @@ else if (ans===4){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -68,10 +76,12 @@ else if (ans===5){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -81,10 +91,12 @@ else if (ans===6){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -94,10 +106,12 @@ else if (ans===7){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -107,10 +121,12 @@ else if (ans===8){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -120,10 +136,12 @@ else if (ans===9){
         document.getElementById("question").value="You are right"
 	 score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
@@ -133,10 +151,12 @@ else if (ans===10){
         document.getElementById("question").value="You are right"
 	score++
 	document.searchImage.src = "images/homerun.gif"
+	sound1.play("correct.mp3");
     }
     else {
         document.getElementById("question").value="You are wrong"
         document.searchImage.src = "images/sadsport.gif"
+	sound2.play("wrong.mp3");
     }
     document.view.qscore.value=score
 }
