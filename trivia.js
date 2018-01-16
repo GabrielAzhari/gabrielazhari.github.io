@@ -219,9 +219,11 @@ else if (i===11){
     alert("You got"+ " " + Math.round(score/(i-1)*100)  + "% for this Trivia Quiz")
 if (score>=8) {
 	sound3.play("win.mp3");
+	document.searchImage.src = "images/goodscore.gif"
 }
 else {
 	sound4.play("lose.mp3");
+	document.searchImage.src = "images/badscore.gif"
 }
 	}
 	i++; 
