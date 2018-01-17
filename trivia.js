@@ -220,10 +220,12 @@ else if (i===11){
 if (score>=8) {
 	sound3.play("win.mp3");
 	document.searchImage.src = "images/goodscore.gif"
+	alert("You got an 80% or above! Somebody knows their sports! Good job!")
 }
 else {
 	sound4.play("lose.mp3");
 	document.searchImage.src = "images/badscore.gif"
+	alert("Awh, maybe next time! Redo the quiz, I know you can win!")
 }
 	}
 	i++; 
